@@ -1,0 +1,1052 @@
+2024-11-19 13:38:48,292 - INFO - Initialized WeatherDataHandler
+2024-11-19 13:38:48,308 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 13:38:48,308 - INFO - WeatherData table created or already exists.
+2024-11-19 13:38:59,590 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000290469C4150>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-19 13:39:08,732 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-19 13:39:08,732 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-19 13:39:10,075 - INFO - WeatherData table created or already exists.
+2024-11-19 13:39:10,082 - INFO - City 'thane' already exists in the database.
+2024-11-19 13:39:10,085 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-19 13:39:11,025 - INFO - Forecasting completed through subprocess.
+2024-11-19 14:57:40,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 14:57:40,758 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:57:40,759 - INFO -  * Restarting with stat
+2024-11-19 14:57:41,383 - WARNING -  * Debugger is active!
+2024-11-19 14:57:41,383 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:00:28,239 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:00:28,255 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 15:00:28,270 - INFO - WeatherData table created or already exists.
+2024-11-19 15:00:39,526 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000212187E4150>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-19 15:00:48,363 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=thane&format=json&limit=1
+2024-11-19 15:00:49,098 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-19 15:00:49,098 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-19 15:01:01,594 - INFO - WeatherData table created or already exists.
+2024-11-19 15:01:01,599 - INFO - City 'thane' already exists in the database.
+2024-11-19 15:01:01,613 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-19 15:01:02,558 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:26:04,193 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:26:04,215 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 15:26:04,215 - INFO - WeatherData table created or already exists.
+2024-11-19 15:26:15,441 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023A4B2A4150>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-19 15:26:24,784 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-19 15:26:24,784 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-19 15:26:26,397 - INFO - WeatherData table created or already exists.
+2024-11-19 15:26:26,397 - INFO - City 'thane' already exists in the database.
+2024-11-19 15:26:26,411 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-19 15:26:27,585 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:26:47,169 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:26:47,185 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 15:26:47,201 - INFO - WeatherData table created or already exists.
+2024-11-19 15:27:23,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 15:27:23,240 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 15:27:23,240 - INFO -  * Restarting with stat
+2024-11-19 15:27:23,765 - WARNING -  * Debugger is active!
+2024-11-19 15:27:23,765 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:30:07,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 15:30:07,981 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 15:30:07,981 - INFO -  * Restarting with stat
+2024-11-19 15:30:08,497 - WARNING -  * Debugger is active!
+2024-11-19 15:30:08,497 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:30:17,788 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:30:17,850 - INFO -  * Restarting with stat
+2024-11-19 15:30:18,387 - WARNING -  * Debugger is active!
+2024-11-19 15:30:18,387 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:30:25,018 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 15:30:25,018 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 15:30:25,019 - INFO -  * Restarting with stat
+2024-11-19 15:30:25,533 - WARNING -  * Debugger is active!
+2024-11-19 15:30:25,533 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:32:03,780 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:32:03,800 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 15:32:03,814 - INFO - WeatherData table created or already exists.
+2024-11-19 15:32:18,905 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:32:18,920 - INFO - Database 'weather_db' created or already exists.
+2024-11-19 15:32:18,937 - INFO - WeatherData table created or already exists.
+2024-11-19 15:32:30,164 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002706DFB4150>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-19 15:32:34,943 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-19 15:32:34,943 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-19 15:32:36,371 - INFO - WeatherData table created or already exists.
+2024-11-19 15:32:36,371 - INFO - City 'thane' already exists in the database.
+2024-11-19 15:32:36,388 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-19 15:32:37,327 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:37:28,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 15:37:28,994 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 15:37:28,994 - INFO -  * Restarting with stat
+2024-11-19 15:37:29,537 - WARNING -  * Debugger is active!
+2024-11-19 15:37:29,537 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:37:59,055 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:59] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-19 15:39:09,680 - INFO - 127.0.0.1 - - [19/Nov/2024 15:39:09] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:39:10,970 - INFO - 127.0.0.1 - - [19/Nov/2024 15:39:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 15:39:20,277 - INFO - Received city name: ahmadabad
+2024-11-19 15:39:20,277 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:39:31,518 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000195FCBCED50>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 15:39:37,745 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:39:37,745 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:39:39,274 - INFO - WeatherData table created or already exists.
+2024-11-19 15:39:39,281 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:39:39,288 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:39:40,277 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:39:40,277 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 15:39:40,277 - INFO - 127.0.0.1 - - [19/Nov/2024 15:39:40] "[32mPOST /view HTTP/1.1[0m" 302 -
+2024-11-19 15:39:40,279 - INFO - 127.0.0.1 - - [19/Nov/2024 15:39:40] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:41:42,096 - INFO - 127.0.0.1 - - [19/Nov/2024 15:41:42] "GET /weather_forecast HTTP/1.1" 200 -
+2024-11-19 15:43:19,683 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:43:19,828 - INFO -  * Restarting with stat
+2024-11-19 15:43:20,479 - WARNING -  * Debugger is active!
+2024-11-19 15:43:20,480 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:44:14,352 - INFO - 127.0.0.1 - - [19/Nov/2024 15:44:14] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:44:17,971 - INFO - Received city name: surat
+2024-11-19 15:44:17,971 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:44:19,986 - INFO - Received city name: surat
+2024-11-19 15:44:19,986 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:44:22,892 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-19 15:44:22,892 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-19 15:44:23,401 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-19 15:44:23,402 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-19 15:44:24,760 - INFO - WeatherData table created or already exists.
+2024-11-19 15:44:24,777 - INFO - City 'surat' already exists in the database.
+2024-11-19 15:44:24,777 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-19 15:44:25,276 - INFO - WeatherData table created or already exists.
+2024-11-19 15:44:25,283 - INFO - City 'surat' already exists in the database.
+2024-11-19 15:44:25,292 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-19 15:44:25,963 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:44:25,963 - INFO - Weather data for surat processed successfully.
+2024-11-19 15:44:25,963 - INFO - 127.0.0.1 - - [19/Nov/2024 15:44:25] "[32mPOST /view HTTP/1.1[0m" 302 -
+2024-11-19 15:44:26,482 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:44:26,482 - INFO - Weather data for surat processed successfully.
+2024-11-19 15:44:26,482 - INFO - 127.0.0.1 - - [19/Nov/2024 15:44:26] "[32mPOST /view HTTP/1.1[0m" 302 -
+2024-11-19 15:44:26,920 - INFO - 127.0.0.1 - - [19/Nov/2024 15:44:26] "GET /weather_forecast HTTP/1.1" 200 -
+2024-11-19 15:44:54,009 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:44:54,126 - INFO -  * Restarting with stat
+2024-11-19 15:44:54,768 - WARNING -  * Debugger is active!
+2024-11-19 15:44:54,768 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:44:57,207 - INFO - 127.0.0.1 - - [19/Nov/2024 15:44:57] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:45:01,030 - INFO - Received city name: ahmadabad
+2024-11-19 15:45:01,030 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:45:12,264 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002431D924B10>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 15:45:12,266 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002431D926690>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 15:45:12,266 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002431D925490>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 15:45:12,266 - INFO - 127.0.0.1 - - [19/Nov/2024 15:45:12] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 15:45:19,656 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:45:19,787 - INFO -  * Restarting with stat
+2024-11-19 15:45:20,363 - WARNING -  * Debugger is active!
+2024-11-19 15:45:20,363 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:45:31,688 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:45:31,792 - INFO -  * Restarting with stat
+2024-11-19 15:45:32,355 - WARNING -  * Debugger is active!
+2024-11-19 15:45:32,355 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:45:40,621 - INFO - Received city name: ahmadabad
+2024-11-19 15:45:40,621 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:45:46,364 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:45:46,366 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:45:48,318 - INFO - WeatherData table created or already exists.
+2024-11-19 15:45:48,339 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:45:48,384 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:45:49,399 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:45:49,399 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 15:45:49,399 - INFO - 127.0.0.1 - - [19/Nov/2024 15:45:49] "[32mPOST /view HTTP/1.1[0m" 302 -
+2024-11-19 15:45:49,408 - INFO - 127.0.0.1 - - [19/Nov/2024 15:45:49] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:45:58,472 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:45:58,582 - INFO -  * Restarting with stat
+2024-11-19 15:45:59,254 - WARNING -  * Debugger is active!
+2024-11-19 15:45:59,255 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:46:01,043 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:01] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:46:02,424 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:02] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:46:02,531 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 15:46:06,018 - INFO - Received city name: ahmadabad
+2024-11-19 15:46:06,018 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:46:06,754 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:46:06,754 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:46:08,184 - INFO - WeatherData table created or already exists.
+2024-11-19 15:46:08,190 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:46:08,198 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:46:09,187 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:46:09,187 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 15:46:09,187 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:09] "[32mPOST /view HTTP/1.1[0m" 302 -
+2024-11-19 15:46:09,190 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:09] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:46:29,109 - INFO - 127.0.0.1 - - [19/Nov/2024 15:46:29] "GET /weather_forecast HTTP/1.1" 200 -
+2024-11-19 15:48:15,161 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:48:15,290 - INFO -  * Restarting with stat
+2024-11-19 15:48:15,914 - WARNING -  * Debugger is active!
+2024-11-19 15:48:15,916 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:52:13,683 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\Data_Dump.py', reloading
+2024-11-19 15:52:13,775 - INFO -  * Restarting with stat
+2024-11-19 15:52:14,413 - WARNING -  * Debugger is active!
+2024-11-19 15:52:14,414 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:52:56,511 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:52:56,606 - INFO -  * Restarting with stat
+2024-11-19 15:52:57,197 - WARNING -  * Debugger is active!
+2024-11-19 15:52:57,199 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:53:01,815 - INFO - 127.0.0.1 - - [19/Nov/2024 15:53:01] "GET /weather_forecast HTTP/1.1" 200 -
+2024-11-19 15:53:05,763 - INFO - 127.0.0.1 - - [19/Nov/2024 15:53:05] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:53:10,708 - INFO - 127.0.0.1 - - [19/Nov/2024 15:53:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 15:53:19,212 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:53:19,337 - INFO -  * Restarting with stat
+2024-11-19 15:53:19,904 - WARNING -  * Debugger is active!
+2024-11-19 15:53:19,906 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:53:25,498 - INFO - Received city name: ahmadabad
+2024-11-19 15:53:25,498 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:53:36,705 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D020E9DA90>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 15:53:36,705 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D020E9F710>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 15:53:36,706 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D020E9E7D0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 15:53:36,706 - INFO - 127.0.0.1 - - [19/Nov/2024 15:53:36] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 15:53:57,968 - INFO - Received city name: ahmadabad
+2024-11-19 15:53:57,969 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:54:03,007 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:54:03,009 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:54:04,471 - INFO - WeatherData table created or already exists.
+2024-11-19 15:54:04,476 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:54:04,485 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:54:05,482 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:54:05,482 - ERROR - Error processing weather data for ahmadabad: cannot access local variable 'historical_df' where it is not associated with a value
+2024-11-19 15:54:05,483 - INFO - 127.0.0.1 - - [19/Nov/2024 15:54:05] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 15:54:38,990 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\Data_Dump.py', reloading
+2024-11-19 15:54:39,086 - INFO -  * Restarting with stat
+2024-11-19 15:54:39,638 - WARNING -  * Debugger is active!
+2024-11-19 15:54:39,639 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:54:47,881 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\Data_Dump.py', reloading
+2024-11-19 15:54:47,982 - INFO -  * Restarting with stat
+2024-11-19 15:54:48,554 - WARNING -  * Debugger is active!
+2024-11-19 15:54:48,555 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:54:50,201 - INFO - 127.0.0.1 - - [19/Nov/2024 15:54:50] "GET /view HTTP/1.1" 200 -
+2024-11-19 15:54:53,240 - INFO - Received city name: ahmadabad
+2024-11-19 15:54:53,240 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:54:54,011 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:54:54,013 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:54:55,449 - INFO - WeatherData table created or already exists.
+2024-11-19 15:54:55,454 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:54:55,462 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:54:56,492 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:54:56,492 - ERROR - Error processing weather data for ahmadabad: cannot access local variable 'historical_data' where it is not associated with a value
+2024-11-19 15:54:56,492 - INFO - 127.0.0.1 - - [19/Nov/2024 15:54:56] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 15:55:37,821 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\Data_Dump.py', reloading
+2024-11-19 15:55:37,909 - INFO -  * Restarting with stat
+2024-11-19 15:55:38,582 - WARNING -  * Debugger is active!
+2024-11-19 15:55:38,584 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:55:40,088 - INFO - Received city name: ahmadabad
+2024-11-19 15:55:40,089 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:55:40,868 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:55:40,870 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:55:42,323 - INFO - WeatherData table created or already exists.
+2024-11-19 15:55:42,330 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:55:42,338 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:55:43,411 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:55:43,411 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 15:55:43,414 - INFO - 127.0.0.1 - - [19/Nov/2024 15:55:43] "POST /view HTTP/1.1" 200 -
+2024-11-19 15:56:29,853 - INFO - Received city name: ahmadabad
+2024-11-19 15:56:29,853 - INFO - Initialized WeatherDataHandler
+2024-11-19 15:56:30,635 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 15:56:30,637 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 15:56:32,120 - INFO - WeatherData table created or already exists.
+2024-11-19 15:56:32,127 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 15:56:32,134 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 15:56:33,233 - INFO - Forecasting completed through subprocess.
+2024-11-19 15:56:33,233 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 15:56:33,234 - INFO - 127.0.0.1 - - [19/Nov/2024 15:56:33] "POST /view HTTP/1.1" 200 -
+2024-11-19 15:57:43,810 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\model.py', reloading
+2024-11-19 15:57:43,899 - INFO -  * Restarting with stat
+2024-11-19 15:57:44,456 - WARNING -  * Debugger is active!
+2024-11-19 15:57:44,458 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 15:59:13,723 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 15:59:13,815 - INFO -  * Restarting with stat
+2024-11-19 16:01:23,174 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:01:23,174 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:01:23,175 - INFO -  * Restarting with stat
+2024-11-19 16:01:24,084 - WARNING -  * Debugger is active!
+2024-11-19 16:01:24,084 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:01:25,217 - INFO - 127.0.0.1 - - [19/Nov/2024 16:01:25] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:01:28,193 - INFO - Received city name: ahmadabad
+2024-11-19 16:01:28,193 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:01:39,395 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000129F496E350>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:01:39,396 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000129F496FF90>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:01:39,398 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000129F496EDD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:01:39,398 - INFO - 127.0.0.1 - - [19/Nov/2024 16:01:39] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:01:50,818 - INFO - Received city name: ahmadabad
+2024-11-19 16:01:50,818 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:01:55,282 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:01:55,284 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:02:04,300 - INFO - WeatherData table created or already exists.
+2024-11-19 16:02:04,300 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:02:04,317 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:02:05,348 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:02:05,348 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:02:05,571 - INFO - 127.0.0.1 - - [19/Nov/2024 16:02:05] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:02:05,679 - INFO - 127.0.0.1 - - [19/Nov/2024 16:02:05] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:02:05,679 - INFO - 127.0.0.1 - - [19/Nov/2024 16:02:05] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:02:05,695 - INFO - 127.0.0.1 - - [19/Nov/2024 16:02:05] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=EupGUyfwCITbAj5pH1S3 HTTP/1.1" 200 -
+2024-11-19 16:02:45,783 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:02:45,898 - INFO -  * Restarting with stat
+2024-11-19 16:02:46,787 - WARNING -  * Debugger is active!
+2024-11-19 16:02:46,803 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:02:47,875 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:02:47,989 - INFO -  * Restarting with stat
+2024-11-19 16:02:48,760 - WARNING -  * Debugger is active!
+2024-11-19 16:02:48,760 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:03:49,490 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:03:49,490 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:03:49,490 - INFO -  * Restarting with stat
+2024-11-19 16:03:50,372 - WARNING -  * Debugger is active!
+2024-11-19 16:03:50,374 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:03:50,407 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:50] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:03:50,408 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:50] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:03:50,634 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:03:54,000 - INFO - Received city name: surat
+2024-11-19 16:03:54,000 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:03:54,918 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-19 16:03:54,920 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-19 16:03:56,620 - INFO - WeatherData table created or already exists.
+2024-11-19 16:03:56,626 - INFO - City 'surat' already exists in the database.
+2024-11-19 16:03:56,639 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-19 16:03:57,721 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:03:57,721 - INFO - Weather data for surat processed successfully.
+2024-11-19 16:03:57,923 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:57] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:03:58,023 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:58] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:03:58,023 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:58] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:03:58,023 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:58] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=Xs8MAU16xGfmHoIwb7E8 HTTP/1.1" 200 -
+2024-11-19 16:03:58,081 - INFO - 127.0.0.1 - - [19/Nov/2024 16:03:58] "[36mGET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:04:10,286 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:04:10,554 - INFO -  * Restarting with stat
+2024-11-19 16:04:11,359 - WARNING -  * Debugger is active!
+2024-11-19 16:04:11,360 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:04:15,522 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:04:15,655 - INFO -  * Restarting with stat
+2024-11-19 16:04:16,482 - WARNING -  * Debugger is active!
+2024-11-19 16:04:16,484 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:04:27,878 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\model.py', reloading
+2024-11-19 16:04:28,021 - INFO -  * Restarting with stat
+2024-11-19 16:04:28,830 - WARNING -  * Debugger is active!
+2024-11-19 16:04:28,830 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:04:38,187 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:04:38,187 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:04:38,187 - INFO -  * Restarting with stat
+2024-11-19 16:04:38,952 - WARNING -  * Debugger is active!
+2024-11-19 16:04:38,952 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:04:39,967 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:39] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:04:40,078 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:04:44,897 - INFO - Received city name: surat
+2024-11-19 16:04:44,897 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:04:45,684 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-19 16:04:45,684 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-19 16:04:47,162 - INFO - WeatherData table created or already exists.
+2024-11-19 16:04:47,172 - INFO - City 'surat' already exists in the database.
+2024-11-19 16:04:47,180 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-19 16:04:48,216 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:04:48,216 - INFO - Weather data for surat processed successfully.
+2024-11-19 16:04:48,416 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:48] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:04:48,516 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:48] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:04:48,516 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:48] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:04:48,516 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:48] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=OnKHGE7ZYQz4qtN7ZuOi HTTP/1.1" 200 -
+2024-11-19 16:04:48,534 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:48] "[36mGET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:05:20,371 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:05:20,526 - INFO -  * Restarting with stat
+2024-11-19 16:05:21,390 - WARNING -  * Debugger is active!
+2024-11-19 16:05:21,403 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:05:22,480 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:05:22,614 - INFO -  * Restarting with stat
+2024-11-19 16:05:23,433 - WARNING -  * Debugger is active!
+2024-11-19 16:05:23,433 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:05:25,231 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:25] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:05:29,261 - INFO - Received city name: ahmadabad
+2024-11-19 16:05:29,261 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:05:30,014 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:05:30,014 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:05:31,554 - INFO - WeatherData table created or already exists.
+2024-11-19 16:05:31,565 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:05:31,573 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:05:32,586 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:05:32,586 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:05:32,797 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:32] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:05:32,883 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:32] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:05:32,883 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:32] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:05:32,907 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:32] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=1DUUVpmUySrVEF3AXHTi HTTP/1.1" 200 -
+2024-11-19 16:05:32,926 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:32] "[36mGET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:06:06,301 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:06] "[35m[1mGET /view HTTP/1.1[0m" 500 -
+2024-11-19 16:06:06,306 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:06] "GET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 16:06:06,310 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:06] "GET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 16:06:06,320 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:06] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=1DUUVpmUySrVEF3AXHTi HTTP/1.1" 200 -
+2024-11-19 16:06:06,329 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:06] "GET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 16:06:19,244 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:19] "[35m[1mGET /view HTTP/1.1[0m" 500 -
+2024-11-19 16:06:19,252 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:19] "GET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 16:06:19,252 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:19] "GET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 16:06:19,260 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:19] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=1DUUVpmUySrVEF3AXHTi HTTP/1.1" 200 -
+2024-11-19 16:06:19,267 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:19] "GET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 16:06:26,505 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:06:26,651 - INFO -  * Restarting with stat
+2024-11-19 16:06:27,438 - WARNING -  * Debugger is active!
+2024-11-19 16:06:27,438 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:06:27,887 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:27] "[35m[1mGET /view HTTP/1.1[0m" 500 -
+2024-11-19 16:06:27,974 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:27] "GET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 16:06:27,978 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:27] "GET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 16:06:27,985 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:27] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=ae3wmRJc7RI5RdPtqCJ7 HTTP/1.1" 200 -
+2024-11-19 16:06:27,990 - INFO - 127.0.0.1 - - [19/Nov/2024 16:06:27] "GET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 16:07:01,532 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:07:01,667 - INFO -  * Restarting with stat
+2024-11-19 16:07:02,458 - WARNING -  * Debugger is active!
+2024-11-19 16:07:02,458 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:07:06,256 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:06] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:07:06,272 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:07:09,080 - INFO - Received city name: ahmadabad
+2024-11-19 16:07:09,080 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:07:20,256 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA53890>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:07:20,256 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA2F690>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:07:20,257 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA2FB10>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:07:20,257 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:20] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:07:23,241 - INFO - Received city name: ahmadabad
+2024-11-19 16:07:23,241 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:07:23,241 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA71E90>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:07:23,241 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA72710>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:07:23,241 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002031AA73010>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:07:23,241 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:23] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:07:26,866 - INFO - Received city name: ahmadabad
+2024-11-19 16:07:26,866 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:07:35,455 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:07:35,457 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:07:36,905 - INFO - WeatherData table created or already exists.
+2024-11-19 16:07:36,912 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:07:36,912 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:07:37,863 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:07:37,863 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:07:38,082 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:38] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:07:38,178 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:38] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:07:38,180 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:38] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:07:38,192 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:38] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=vfnc7yEnDvW8jUGAy5Cl HTTP/1.1" 200 -
+2024-11-19 16:07:38,201 - INFO - 127.0.0.1 - - [19/Nov/2024 16:07:38] "[36mGET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:07:59,236 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:07:59,384 - INFO -  * Restarting with stat
+2024-11-19 16:08:00,243 - WARNING -  * Debugger is active!
+2024-11-19 16:08:00,243 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:08:03,884 - INFO - Received city name: ahmadabad
+2024-11-19 16:08:03,884 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:08:04,680 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:08:04,683 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:08:06,104 - INFO - WeatherData table created or already exists.
+2024-11-19 16:08:06,104 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:08:06,121 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:08:07,088 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:08:07,088 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:08:07,334 - INFO - 127.0.0.1 - - [19/Nov/2024 16:08:07] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:08:07,454 - INFO - 127.0.0.1 - - [19/Nov/2024 16:08:07] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:08:07,455 - INFO - 127.0.0.1 - - [19/Nov/2024 16:08:07] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:08:07,462 - INFO - 127.0.0.1 - - [19/Nov/2024 16:08:07] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=fZ69J8p9PgsU7O3MspZO HTTP/1.1" 200 -
+2024-11-19 16:09:44,921 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:09:45,049 - INFO -  * Restarting with stat
+2024-11-19 16:09:45,891 - WARNING -  * Debugger is active!
+2024-11-19 16:09:45,907 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:10:46,774 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:10:46,906 - INFO -  * Restarting with stat
+2024-11-19 16:10:47,740 - WARNING -  * Debugger is active!
+2024-11-19 16:10:47,740 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:10:56,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:10:56,873 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:10:56,873 - INFO -  * Restarting with stat
+2024-11-19 16:10:57,642 - WARNING -  * Debugger is active!
+2024-11-19 16:10:57,643 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:11:01,829 - INFO - Received city name: ahmadabad
+2024-11-19 16:11:01,830 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:11:02,604 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:11:02,604 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:11:04,245 - INFO - WeatherData table created or already exists.
+2024-11-19 16:11:04,261 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:11:04,267 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:11:05,207 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:11:05,207 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:11:05,445 - INFO - 127.0.0.1 - - [19/Nov/2024 16:11:05] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:11:05,520 - INFO - 127.0.0.1 - - [19/Nov/2024 16:11:05] "GET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 16:11:05,520 - INFO - 127.0.0.1 - - [19/Nov/2024 16:11:05] "GET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 16:11:05,540 - INFO - 127.0.0.1 - - [19/Nov/2024 16:11:05] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=OyVuSvf8GcklESY63dSE HTTP/1.1" 200 -
+2024-11-19 16:11:05,543 - INFO - 127.0.0.1 - - [19/Nov/2024 16:11:05] "GET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 16:12:45,991 - INFO - Received city name: ahmadabad
+2024-11-19 16:12:45,991 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:12:57,166 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002345E440190>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:12:57,166 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002345E416910>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:12:57,166 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002345E414710>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:12:57,166 - INFO - 127.0.0.1 - - [19/Nov/2024 16:12:57] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:12:57,192 - INFO - 127.0.0.1 - - [19/Nov/2024 16:12:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:13:10,121 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:13:10,121 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:13:10,121 - INFO -  * Restarting with stat
+2024-11-19 16:13:10,889 - WARNING -  * Debugger is active!
+2024-11-19 16:13:10,889 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:13:13,334 - INFO - Received city name: ahmadabad
+2024-11-19 16:13:13,335 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:13:21,479 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:13:21,479 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:13:22,901 - INFO - WeatherData table created or already exists.
+2024-11-19 16:13:22,907 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:13:22,916 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:13:23,864 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:13:23,864 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:13:24,068 - INFO - 127.0.0.1 - - [19/Nov/2024 16:13:24] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:13:51,569 - INFO - Received city name: nagpur
+2024-11-19 16:13:51,569 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:13:52,467 - INFO - Coordinates for nagpur found: 21.1498134, 79.0820556
+2024-11-19 16:13:52,470 - INFO - Initialized WeatherDataFetcher for nagpur
+2024-11-19 16:13:53,991 - INFO - WeatherData table created or already exists.
+2024-11-19 16:13:54,008 - INFO - City 'nagpur' already exists in the database.
+2024-11-19 16:13:54,010 - INFO - Current weather data for nagpur has been inserted into the database.
+2024-11-19 16:13:55,050 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:13:55,050 - INFO - Weather data for nagpur processed successfully.
+2024-11-19 16:13:55,192 - INFO - 127.0.0.1 - - [19/Nov/2024 16:13:55] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:14:06,514 - INFO - Received city name: thane
+2024-11-19 16:14:06,514 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:14:07,312 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-19 16:14:07,315 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-19 16:14:08,939 - INFO - WeatherData table created or already exists.
+2024-11-19 16:14:08,944 - INFO - City 'thane' already exists in the database.
+2024-11-19 16:14:08,951 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-19 16:14:09,901 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:14:09,902 - INFO - Weather data for thane processed successfully.
+2024-11-19 16:14:10,035 - INFO - 127.0.0.1 - - [19/Nov/2024 16:14:10] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:14:56,776 - INFO - Received city name: Asansol 
+2024-11-19 16:14:56,776 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:14:57,717 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-19 16:14:57,720 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-19 16:14:59,589 - INFO - WeatherData table created or already exists.
+2024-11-19 16:15:00,551 - INFO - Historical weather data for Asansol  has been inserted into the database.
+2024-11-19 16:15:00,553 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-19 16:15:02,605 - INFO - Model training completed through subprocess.
+2024-11-19 16:15:03,556 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:15:03,556 - INFO - Weather data for Asansol  processed successfully.
+2024-11-19 16:15:03,872 - INFO - 127.0.0.1 - - [19/Nov/2024 16:15:03] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:16:01,907 - INFO - Received city name: Kota
+2024-11-19 16:16:01,907 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:16:02,914 - INFO - Coordinates for Kota found: 25.1737019, 75.8574194
+2024-11-19 16:16:02,914 - INFO - Initialized WeatherDataFetcher for Kota
+2024-11-19 16:16:05,193 - INFO - WeatherData table created or already exists.
+2024-11-19 16:16:06,215 - INFO - Historical weather data for Kota has been inserted into the database.
+2024-11-19 16:16:06,231 - INFO - Current weather data for Kota has been inserted into the database.
+2024-11-19 16:16:08,295 - INFO - Model training completed through subprocess.
+2024-11-19 16:16:09,266 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:16:09,266 - INFO - Weather data for Kota processed successfully.
+2024-11-19 16:16:09,658 - INFO - 127.0.0.1 - - [19/Nov/2024 16:16:09] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:16:42,692 - INFO - Received city name: Ajmer
+2024-11-19 16:16:42,692 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:16:43,626 - INFO - Coordinates for Ajmer found: 26.4691, 74.639
+2024-11-19 16:16:43,628 - INFO - Initialized WeatherDataFetcher for Ajmer
+2024-11-19 16:16:45,499 - INFO - WeatherData table created or already exists.
+2024-11-19 16:16:46,456 - INFO - Historical weather data for Ajmer has been inserted into the database.
+2024-11-19 16:16:46,464 - INFO - Current weather data for Ajmer has been inserted into the database.
+2024-11-19 16:16:48,478 - INFO - Model training completed through subprocess.
+2024-11-19 16:16:49,435 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:16:49,435 - INFO - Weather data for Ajmer processed successfully.
+2024-11-19 16:16:49,812 - INFO - 127.0.0.1 - - [19/Nov/2024 16:16:49] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:17:05,433 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:17:05,621 - INFO -  * Restarting with stat
+2024-11-19 16:17:06,407 - WARNING -  * Debugger is active!
+2024-11-19 16:17:06,407 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:17:36,746 - INFO - Received city name: pune
+2024-11-19 16:17:36,746 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:17:42,087 - INFO - Coordinates for pune found: 18.5213738, 73.8545071
+2024-11-19 16:17:42,087 - INFO - Initialized WeatherDataFetcher for pune
+2024-11-19 16:17:43,537 - INFO - WeatherData table created or already exists.
+2024-11-19 16:17:43,537 - INFO - City 'pune' already exists in the database.
+2024-11-19 16:17:43,554 - INFO - Current weather data for pune has been inserted into the database.
+2024-11-19 16:17:44,515 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:17:44,515 - INFO - Weather data for pune processed successfully.
+2024-11-19 16:17:44,724 - INFO - 127.0.0.1 - - [19/Nov/2024 16:17:44] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:19:26,873 - INFO - Received city name: Udaipur
+2024-11-19 16:19:26,874 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:19:38,102 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C7E4DCAFD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Udaipur&format=json&limit=1
+2024-11-19 16:19:38,102 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C7E4DC8850>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Udaipur&format=json&limit=1
+2024-11-19 16:19:38,102 - ERROR - Error processing weather data for Udaipur: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Udaipur&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002C7E4DCA390>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:19:38,102 - INFO - 127.0.0.1 - - [19/Nov/2024 16:19:38] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:19:53,902 - INFO - Received city name: Udaipur
+2024-11-19 16:19:53,902 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:19:59,377 - INFO - Coordinates for Udaipur found: 24.578721, 73.6862571
+2024-11-19 16:19:59,377 - INFO - Initialized WeatherDataFetcher for Udaipur
+2024-11-19 16:20:01,244 - INFO - WeatherData table created or already exists.
+2024-11-19 16:20:01,264 - INFO - City 'Udaipur' already exists in the database.
+2024-11-19 16:20:01,281 - INFO - Current weather data for Udaipur has been inserted into the database.
+2024-11-19 16:20:02,279 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:20:02,279 - INFO - Weather data for Udaipur processed successfully.
+2024-11-19 16:20:02,564 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:02] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:20:16,415 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:20:16,577 - INFO -  * Restarting with stat
+2024-11-19 16:20:17,374 - WARNING -  * Debugger is active!
+2024-11-19 16:20:17,374 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:20:21,568 - INFO - Received city name: Udaipur
+2024-11-19 16:20:21,568 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:20:22,341 - INFO - Coordinates for Udaipur found: 24.578721, 73.6862571
+2024-11-19 16:20:22,344 - INFO - Initialized WeatherDataFetcher for Udaipur
+2024-11-19 16:20:23,781 - INFO - WeatherData table created or already exists.
+2024-11-19 16:20:23,797 - INFO - City 'Udaipur' already exists in the database.
+2024-11-19 16:20:23,805 - INFO - Current weather data for Udaipur has been inserted into the database.
+2024-11-19 16:20:24,784 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:20:24,784 - INFO - Weather data for Udaipur processed successfully.
+2024-11-19 16:20:24,975 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:24] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:20:25,082 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:25] "[36mGET /view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:20:25,083 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:25] "[36mGET /view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:20:25,096 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:25] "GET /view?__debugger__=yes&cmd=resource&f=console.png&s=NbjE7ga1ZMGGOCMgAJ3y HTTP/1.1" 200 -
+2024-11-19 16:20:25,106 - INFO - 127.0.0.1 - - [19/Nov/2024 16:20:25] "[36mGET /view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:20:57,681 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\model.py', reloading
+2024-11-19 16:20:57,782 - INFO -  * Restarting with stat
+2024-11-19 16:20:58,598 - WARNING -  * Debugger is active!
+2024-11-19 16:20:58,598 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:21:03,240 - INFO - Received city name: Udaipur
+2024-11-19 16:21:03,240 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:21:03,976 - INFO - Coordinates for Udaipur found: 24.578721, 73.6862571
+2024-11-19 16:21:03,978 - INFO - Initialized WeatherDataFetcher for Udaipur
+2024-11-19 16:21:05,401 - INFO - WeatherData table created or already exists.
+2024-11-19 16:21:05,420 - INFO - City 'Udaipur' already exists in the database.
+2024-11-19 16:21:05,427 - INFO - Current weather data for Udaipur has been inserted into the database.
+2024-11-19 16:21:06,391 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:21:06,391 - INFO - Weather data for Udaipur processed successfully.
+2024-11-19 16:21:06,600 - INFO - 127.0.0.1 - - [19/Nov/2024 16:21:06] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:22:16,065 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:22:16,211 - INFO -  * Restarting with stat
+2024-11-19 16:22:16,997 - WARNING -  * Debugger is active!
+2024-11-19 16:22:16,997 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:22:31,841 - INFO - Received city name: Tonk
+2024-11-19 16:22:31,841 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:22:32,848 - INFO - Coordinates for Tonk found: 26.122266000000003, 75.82386305157223
+2024-11-19 16:22:32,862 - INFO - Initialized WeatherDataFetcher for Tonk
+2024-11-19 16:22:34,751 - INFO - WeatherData table created or already exists.
+2024-11-19 16:22:34,751 - INFO - City 'Tonk' already exists in the database.
+2024-11-19 16:22:34,774 - INFO - Current weather data for Tonk has been inserted into the database.
+2024-11-19 16:22:35,740 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:22:35,740 - INFO - Weather data for Tonk processed successfully.
+2024-11-19 16:22:36,192 - INFO - 127.0.0.1 - - [19/Nov/2024 16:22:36] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:24:15,253 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:24:15,391 - INFO -  * Restarting with stat
+2024-11-19 16:24:16,158 - WARNING -  * Debugger is active!
+2024-11-19 16:24:16,158 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:24:17,240 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:24:17,377 - INFO -  * Restarting with stat
+2024-11-19 16:24:18,178 - WARNING -  * Debugger is active!
+2024-11-19 16:24:18,195 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:24:34,960 - INFO - Received city name: Jaipur
+2024-11-19 16:24:34,960 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:24:40,386 - INFO - Coordinates for Jaipur found: 26.9154576, 75.8189817
+2024-11-19 16:24:40,402 - INFO - Initialized WeatherDataFetcher for Jaipur
+2024-11-19 16:24:42,251 - INFO - WeatherData table created or already exists.
+2024-11-19 16:24:42,256 - INFO - City 'Jaipur' already exists in the database.
+2024-11-19 16:24:42,301 - INFO - Current weather data for Jaipur has been inserted into the database.
+2024-11-19 16:24:43,310 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:24:43,310 - INFO - Weather data for Jaipur processed successfully.
+2024-11-19 16:24:43,744 - INFO - 127.0.0.1 - - [19/Nov/2024 16:24:43] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:25:23,413 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:25:23,538 - INFO -  * Restarting with stat
+2024-11-19 16:25:24,384 - WARNING -  * Debugger is active!
+2024-11-19 16:25:24,386 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:25:29,112 - INFO - Received city name: ahmadabad
+2024-11-19 16:25:29,112 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:25:40,323 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4FB0C2010>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:25:40,323 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4FB0C3710>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-19 16:25:40,323 - ERROR - Error processing weather data for ahmadabad: HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=ahmadabad&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4FB0C3490>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:25:40,323 - INFO - 127.0.0.1 - - [19/Nov/2024 16:25:40] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:25:50,463 - INFO - Received city name: ahmadabad
+2024-11-19 16:25:50,463 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:25:51,253 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:25:51,253 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:25:52,734 - INFO - WeatherData table created or already exists.
+2024-11-19 16:25:52,740 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:25:52,748 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:25:53,706 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:25:53,706 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:25:53,909 - INFO - 127.0.0.1 - - [19/Nov/2024 16:25:53] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:26:06,832 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:26:07,020 - INFO -  * Restarting with stat
+2024-11-19 16:26:07,871 - WARNING -  * Debugger is active!
+2024-11-19 16:26:07,871 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:26:20,300 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:26:20,423 - INFO -  * Restarting with stat
+2024-11-19 16:26:21,238 - WARNING -  * Debugger is active!
+2024-11-19 16:26:21,238 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:29:42,096 - INFO - Received city name: ahmadabad
+2024-11-19 16:29:42,096 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:29:46,944 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:29:46,947 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:29:48,816 - INFO - WeatherData table created or already exists.
+2024-11-19 16:29:48,831 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:29:48,861 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:29:49,951 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:29:49,951 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:29:50,410 - INFO - 127.0.0.1 - - [19/Nov/2024 16:29:50] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:29:51,911 - INFO - 127.0.0.1 - - [19/Nov/2024 16:29:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:30:00,171 - INFO - Received city name: pune
+2024-11-19 16:30:00,171 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:30:01,222 - INFO - Coordinates for pune found: 18.5213738, 73.8545071
+2024-11-19 16:30:01,223 - INFO - Initialized WeatherDataFetcher for pune
+2024-11-19 16:30:03,099 - INFO - WeatherData table created or already exists.
+2024-11-19 16:30:03,105 - INFO - City 'pune' already exists in the database.
+2024-11-19 16:30:03,117 - INFO - Current weather data for pune has been inserted into the database.
+2024-11-19 16:30:04,077 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:30:04,077 - INFO - Weather data for pune processed successfully.
+2024-11-19 16:30:04,378 - INFO - 127.0.0.1 - - [19/Nov/2024 16:30:04] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:44:28,715 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:44:28,839 - INFO -  * Restarting with stat
+2024-11-19 16:44:29,744 - WARNING -  * Debugger is active!
+2024-11-19 16:44:29,744 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:44:54,007 - INFO - Received city name: Asansol 
+2024-11-19 16:44:54,007 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:45:05,205 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AEC6221A50>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:45:05,205 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AEC79C7BD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:45:05,209 - ERROR - Error processing weather data for Asansol : HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Asansol+&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AEC79DC3D0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:45:05,209 - INFO - 127.0.0.1 - - [19/Nov/2024 16:45:05] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:45:14,027 - INFO - Received city name: Asansol 
+2024-11-19 16:45:14,027 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:45:22,444 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-19 16:45:22,453 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-19 16:45:23,933 - INFO - WeatherData table created or already exists.
+2024-11-19 16:45:23,942 - INFO - City 'Asansol ' already exists in the database.
+2024-11-19 16:45:23,950 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-19 16:45:24,898 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:45:24,898 - INFO - Weather data for Asansol  processed successfully.
+2024-11-19 16:45:25,118 - INFO - 127.0.0.1 - - [19/Nov/2024 16:45:25] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:46:38,890 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:46:39,032 - INFO -  * Restarting with stat
+2024-11-19 16:46:39,925 - WARNING -  * Debugger is active!
+2024-11-19 16:46:39,925 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:46:47,177 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-19 16:46:47,280 - INFO -  * Restarting with stat
+2024-11-19 16:46:48,139 - WARNING -  * Debugger is active!
+2024-11-19 16:46:48,139 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:50:24,717 - INFO - Received city name: Asansol 
+2024-11-19 16:50:24,718 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:50:36,030 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A5FC11F10>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:50:36,032 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A5FC12950>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:50:36,033 - ERROR - Error processing weather data for Asansol : HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Asansol+&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A5FC129D0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:50:36,033 - INFO - 127.0.0.1 - - [19/Nov/2024 16:50:36] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:50:36,054 - INFO - 127.0.0.1 - - [19/Nov/2024 16:50:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-19 16:50:42,172 - INFO - Received city name: Asansol 
+2024-11-19 16:50:42,173 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:50:50,694 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-19 16:50:50,694 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-19 16:50:52,113 - INFO - WeatherData table created or already exists.
+2024-11-19 16:50:52,119 - INFO - City 'Asansol ' already exists in the database.
+2024-11-19 16:50:52,127 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-19 16:50:53,155 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:50:53,155 - INFO - Weather data for Asansol  processed successfully.
+2024-11-19 16:50:53,359 - INFO - 127.0.0.1 - - [19/Nov/2024 16:50:53] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:51:05,051 - INFO - Received city name: ahmadabad
+2024-11-19 16:51:05,051 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:51:05,799 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-19 16:51:05,801 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-19 16:51:07,267 - INFO - WeatherData table created or already exists.
+2024-11-19 16:51:07,272 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-19 16:51:07,272 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-19 16:51:08,252 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:51:08,252 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-19 16:51:08,402 - INFO - 127.0.0.1 - - [19/Nov/2024 16:51:08] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:51:25,877 - INFO - Received city name: nagpur
+2024-11-19 16:51:25,877 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:51:26,710 - INFO - Coordinates for nagpur found: 21.1498134, 79.0820556
+2024-11-19 16:51:26,710 - INFO - Initialized WeatherDataFetcher for nagpur
+2024-11-19 16:51:28,195 - INFO - WeatherData table created or already exists.
+2024-11-19 16:51:28,204 - INFO - City 'nagpur' already exists in the database.
+2024-11-19 16:51:28,214 - INFO - Current weather data for nagpur has been inserted into the database.
+2024-11-19 16:51:29,227 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:51:29,228 - INFO - Weather data for nagpur processed successfully.
+2024-11-19 16:51:29,371 - INFO - 127.0.0.1 - - [19/Nov/2024 16:51:29] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:51:54,026 - INFO - Received city name: Sri Ganganagar
+2024-11-19 16:51:54,026 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:51:55,029 - INFO - Coordinates for Sri Ganganagar found: 29.54807325, 73.83389485608284
+2024-11-19 16:51:55,031 - INFO - Initialized WeatherDataFetcher for Sri Ganganagar
+2024-11-19 16:51:56,893 - INFO - WeatherData table created or already exists.
+2024-11-19 16:51:57,926 - INFO - Historical weather data for Sri Ganganagar has been inserted into the database.
+2024-11-19 16:51:57,945 - INFO - Current weather data for Sri Ganganagar has been inserted into the database.
+2024-11-19 16:51:59,973 - INFO - Model training completed through subprocess.
+2024-11-19 16:52:00,938 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:52:00,938 - INFO - Weather data for Sri Ganganagar processed successfully.
+2024-11-19 16:52:01,300 - INFO - 127.0.0.1 - - [19/Nov/2024 16:52:01] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:52:46,409 - INFO - Received city name: Pali
+2024-11-19 16:52:46,409 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:52:47,362 - INFO - Coordinates for Pali found: 25.45522105, 73.4193889559074
+2024-11-19 16:52:47,362 - INFO - Initialized WeatherDataFetcher for Pali
+2024-11-19 16:52:48,856 - INFO - WeatherData table created or already exists.
+2024-11-19 16:52:49,598 - INFO - Historical weather data for Pali has been inserted into the database.
+2024-11-19 16:52:49,598 - INFO - Current weather data for Pali has been inserted into the database.
+2024-11-19 16:52:51,531 - INFO - Model training completed through subprocess.
+2024-11-19 16:52:52,471 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:52:52,471 - INFO - Weather data for Pali processed successfully.
+2024-11-19 16:52:52,628 - INFO - 127.0.0.1 - - [19/Nov/2024 16:52:52] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:53:39,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:53:39,086 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:53:39,086 - INFO -  * Restarting with stat
+2024-11-19 16:53:39,861 - WARNING -  * Debugger is active!
+2024-11-19 16:53:39,861 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:54:11,480 - INFO - 127.0.0.1 - - [19/Nov/2024 16:54:11] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:54:16,704 - INFO - Received city name: surat
+2024-11-19 16:54:16,704 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:54:17,647 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-19 16:54:17,647 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-19 16:54:19,550 - INFO - WeatherData table created or already exists.
+2024-11-19 16:54:19,553 - INFO - City 'surat' already exists in the database.
+2024-11-19 16:54:19,573 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-19 16:54:20,645 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:54:20,645 - INFO - Weather data for surat processed successfully.
+2024-11-19 16:54:21,020 - INFO - 127.0.0.1 - - [19/Nov/2024 16:54:21] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:57:45,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 16:57:45,488 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:57:45,489 - INFO -  * Restarting with stat
+2024-11-19 16:57:46,257 - WARNING -  * Debugger is active!
+2024-11-19 16:57:46,258 - INFO -  * Debugger PIN: 678-791-049
+2024-11-19 16:57:59,142 - INFO - 127.0.0.1 - - [19/Nov/2024 16:57:59] "GET /view HTTP/1.1" 200 -
+2024-11-19 16:58:05,325 - INFO - Received city name: Asansol 
+2024-11-19 16:58:05,325 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:58:16,669 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012028432AD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:58:16,669 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012028432450>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-19 16:58:16,669 - ERROR - Error processing weather data for Asansol : HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Asansol+&format=json&limit=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012028433450>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11002] getaddrinfo failed)"))
+2024-11-19 16:58:16,669 - INFO - 127.0.0.1 - - [19/Nov/2024 16:58:16] "[35m[1mPOST /view HTTP/1.1[0m" 500 -
+2024-11-19 16:58:22,120 - INFO - Received city name: Asansol 
+2024-11-19 16:58:22,120 - INFO - Initialized WeatherDataHandler
+2024-11-19 16:58:26,939 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-19 16:58:26,940 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-19 16:58:28,367 - INFO - WeatherData table created or already exists.
+2024-11-19 16:58:28,367 - INFO - City 'Asansol ' already exists in the database.
+2024-11-19 16:58:28,385 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-19 16:58:29,403 - INFO - Forecasting completed through subprocess.
+2024-11-19 16:58:29,404 - INFO - Weather data for Asansol  processed successfully.
+2024-11-19 16:58:29,608 - INFO - 127.0.0.1 - - [19/Nov/2024 16:58:29] "POST /view HTTP/1.1" 200 -
+2024-11-19 16:58:44,573 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\Data_Dump.py', reloading
+2024-11-19 16:58:44,698 - INFO -  * Restarting with stat
+2024-11-19 16:58:45,500 - WARNING -  * Debugger is active!
+2024-11-19 16:58:45,500 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:24:05,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 10:24:05,004 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 10:24:05,006 - INFO -  * Restarting with stat
+2024-11-20 10:24:05,911 - WARNING -  * Debugger is active!
+2024-11-20 10:24:05,926 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:24:37,836 - INFO - 127.0.0.1 - - [20/Nov/2024 10:24:37] "GET /view HTTP/1.1" 200 -
+2024-11-20 10:24:37,883 - INFO - 127.0.0.1 - - [20/Nov/2024 10:24:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-20 10:24:45,493 - INFO - Received city name: ahmadabad
+2024-11-20 10:24:45,493 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:24:56,720 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021640370CD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=ahmadabad&format=json&limit=1
+2024-11-20 10:25:05,936 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-20 10:25:05,936 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-20 10:25:07,454 - INFO - WeatherData table created or already exists.
+2024-11-20 10:25:07,454 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-20 10:25:07,468 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-20 10:25:08,542 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:25:08,542 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-20 10:25:08,766 - INFO - 127.0.0.1 - - [20/Nov/2024 10:25:08] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:26:24,782 - INFO - Received city name: Weir
+2024-11-20 10:26:24,782 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:26:25,872 - INFO - Coordinates for Weir found: 30.6749876, -97.5877588
+2024-11-20 10:26:25,874 - INFO - Initialized WeatherDataFetcher for Weir
+2024-11-20 10:26:27,906 - INFO - WeatherData table created or already exists.
+2024-11-20 10:26:28,874 - INFO - Historical weather data for Weir has been inserted into the database.
+2024-11-20 10:26:28,892 - INFO - Current weather data for Weir has been inserted into the database.
+2024-11-20 10:26:30,683 - INFO - Model training completed through subprocess.
+2024-11-20 10:26:31,669 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:26:31,670 - INFO - Weather data for Weir processed successfully.
+2024-11-20 10:26:31,918 - INFO - 127.0.0.1 - - [20/Nov/2024 10:26:31] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:27:43,507 - INFO - Received city name: Pali
+2024-11-20 10:27:43,507 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:27:45,286 - INFO - Coordinates for Pali found: 25.45522105, 73.4193889559074
+2024-11-20 10:27:45,303 - INFO - Initialized WeatherDataFetcher for Pali
+2024-11-20 10:27:47,341 - INFO - WeatherData table created or already exists.
+2024-11-20 10:27:47,362 - INFO - City 'Pali' already exists in the database.
+2024-11-20 10:27:47,372 - INFO - Current weather data for Pali has been inserted into the database.
+2024-11-20 10:27:48,366 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:27:48,366 - INFO - Weather data for Pali processed successfully.
+2024-11-20 10:27:48,677 - INFO - 127.0.0.1 - - [20/Nov/2024 10:27:48] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:29:02,517 - INFO - Received city name: mumbai 
+2024-11-20 10:29:02,517 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:29:03,727 - INFO - Coordinates for mumbai  found: 19.054999, 72.8692035
+2024-11-20 10:29:03,730 - INFO - Initialized WeatherDataFetcher for mumbai 
+2024-11-20 10:29:05,496 - INFO - WeatherData table created or already exists.
+2024-11-20 10:29:06,403 - INFO - Historical weather data for mumbai  has been inserted into the database.
+2024-11-20 10:29:06,405 - INFO - Current weather data for mumbai  has been inserted into the database.
+2024-11-20 10:29:08,304 - INFO - Model training completed through subprocess.
+2024-11-20 10:29:09,343 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:29:09,354 - INFO - Weather data for mumbai  processed successfully.
+2024-11-20 10:29:09,717 - INFO - 127.0.0.1 - - [20/Nov/2024 10:29:09] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:31:42,751 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\app.py', reloading
+2024-11-20 10:31:42,897 - INFO -  * Restarting with stat
+2024-11-20 10:31:43,751 - WARNING -  * Debugger is active!
+2024-11-20 10:31:43,751 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:34:23,696 - INFO - Received city name: thane
+2024-11-20 10:34:23,697 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:34:34,937 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029CCC049CD0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-20 10:34:39,998 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-20 10:34:39,998 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-20 10:34:42,535 - INFO - WeatherData table created or already exists.
+2024-11-20 10:34:42,537 - INFO - City 'thane' already exists in the database.
+2024-11-20 10:34:42,551 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-20 10:34:43,588 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:34:43,588 - INFO - Weather data for thane processed successfully.
+2024-11-20 10:34:43,805 - INFO - 127.0.0.1 - - [20/Nov/2024 10:34:43] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:40:00,133 - INFO -  * Detected change in 'D:\\practics_CICD Pipleline\\project\\model_traning.py', reloading
+2024-11-20 10:40:00,262 - INFO -  * Restarting with stat
+2024-11-20 10:40:01,060 - WARNING -  * Debugger is active!
+2024-11-20 10:40:01,060 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:48:49,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 10:48:49,722 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 10:48:49,722 - INFO -  * Restarting with stat
+2024-11-20 10:48:50,523 - WARNING -  * Debugger is active!
+2024-11-20 10:48:50,523 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:48:57,947 - INFO - Received city name: thane
+2024-11-20 10:48:57,947 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:49:08,697 - INFO - Received city name: Asansol 
+2024-11-20 10:49:08,697 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:49:09,130 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AB17420250>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-20 10:49:09,131 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AB174296D0>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-20 10:49:17,562 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-20 10:49:17,562 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-20 10:49:18,249 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-20 10:49:18,249 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-20 10:49:19,049 - INFO - WeatherData table created or already exists.
+2024-11-20 10:49:19,049 - INFO - City 'Asansol ' already exists in the database.
+2024-11-20 10:49:19,067 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-20 10:49:19,754 - INFO - WeatherData table created or already exists.
+2024-11-20 10:49:19,760 - INFO - City 'thane' already exists in the database.
+2024-11-20 10:49:19,766 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-20 10:49:20,066 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:49:20,066 - INFO - Weather data for Asansol  processed successfully.
+2024-11-20 10:49:20,313 - INFO - 127.0.0.1 - - [20/Nov/2024 10:49:20] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:49:20,337 - INFO - 127.0.0.1 - - [20/Nov/2024 10:49:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-20 10:49:20,774 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:49:20,774 - INFO - Weather data for thane processed successfully.
+2024-11-20 10:49:20,935 - INFO - 127.0.0.1 - - [20/Nov/2024 10:49:20] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:49:46,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 10:49:46,484 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 10:49:46,485 - INFO -  * Restarting with stat
+2024-11-20 10:49:47,323 - WARNING -  * Debugger is active!
+2024-11-20 10:49:47,324 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 10:50:15,109 - INFO - 127.0.0.1 - - [20/Nov/2024 10:50:15] "GET /view HTTP/1.1" 200 -
+2024-11-20 10:50:19,595 - INFO - Received city name: Asansol 
+2024-11-20 10:50:19,596 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:50:20,553 - INFO - Coordinates for Asansol  found: 23.6871297, 86.9746587
+2024-11-20 10:50:20,556 - INFO - Initialized WeatherDataFetcher for Asansol 
+2024-11-20 10:50:22,364 - INFO - WeatherData table created or already exists.
+2024-11-20 10:50:22,380 - INFO - City 'Asansol ' already exists in the database.
+2024-11-20 10:50:22,383 - INFO - Current weather data for Asansol  has been inserted into the database.
+2024-11-20 10:50:23,385 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:50:23,385 - INFO - Weather data for Asansol  processed successfully.
+2024-11-20 10:50:23,807 - INFO - 127.0.0.1 - - [20/Nov/2024 10:50:23] "POST /view HTTP/1.1" 200 -
+2024-11-20 10:50:46,682 - INFO - Received city name: surat
+2024-11-20 10:50:46,682 - INFO - Initialized WeatherDataHandler
+2024-11-20 10:50:47,432 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-20 10:50:47,432 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-20 10:50:48,817 - INFO - WeatherData table created or already exists.
+2024-11-20 10:50:48,834 - INFO - City 'surat' already exists in the database.
+2024-11-20 10:50:48,834 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-20 10:50:49,852 - INFO - Forecasting completed through subprocess.
+2024-11-20 10:50:49,852 - INFO - Weather data for surat processed successfully.
+2024-11-20 10:50:50,003 - INFO - 127.0.0.1 - - [20/Nov/2024 10:50:50] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:05:56,175 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 11:05:56,175 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 11:05:56,175 - INFO -  * Restarting with stat
+2024-11-20 11:05:56,995 - WARNING -  * Debugger is active!
+2024-11-20 11:05:56,996 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 11:06:06,474 - INFO - Received city name: Asansol 
+2024-11-20 11:06:06,474 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:06:17,708 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001B3AF6C1A90>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=Asansol+&format=json&limit=1
+2024-11-20 11:06:20,849 - INFO - 127.0.0.1 - - [20/Nov/2024 11:06:20] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:06:27,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 11:06:27,901 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 11:06:27,901 - INFO -  * Restarting with stat
+2024-11-20 11:06:28,714 - WARNING -  * Debugger is active!
+2024-11-20 11:06:28,714 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 11:06:31,868 - INFO - 127.0.0.1 - - [20/Nov/2024 11:06:31] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:06:36,614 - INFO - 127.0.0.1 - - [20/Nov/2024 11:06:36] "[33mPOST / HTTP/1.1[0m" 404 -
+2024-11-20 11:07:15,470 - INFO - 127.0.0.1 - - [20/Nov/2024 11:07:15] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:07:25,055 - INFO - 127.0.0.1 - - [20/Nov/2024 11:07:25] "[33mPOST / HTTP/1.1[0m" 404 -
+2024-11-20 11:07:41,733 - INFO - 127.0.0.1 - - [20/Nov/2024 11:07:41] "[33mPOST / HTTP/1.1[0m" 404 -
+2024-11-20 11:07:44,906 - INFO - 127.0.0.1 - - [20/Nov/2024 11:07:44] "[33mPOST / HTTP/1.1[0m" 404 -
+2024-11-20 11:07:52,909 - INFO - 127.0.0.1 - - [20/Nov/2024 11:07:52] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:07:58,099 - INFO - Received city name: surat
+2024-11-20 11:07:58,099 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:07:58,890 - INFO - Coordinates for surat found: 21.2094892, 72.8317058
+2024-11-20 11:07:58,893 - INFO - Initialized WeatherDataFetcher for surat
+2024-11-20 11:08:00,301 - INFO - WeatherData table created or already exists.
+2024-11-20 11:08:00,307 - INFO - City 'surat' already exists in the database.
+2024-11-20 11:08:00,315 - INFO - Current weather data for surat has been inserted into the database.
+2024-11-20 11:08:01,310 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:08:01,310 - INFO - Weather data for surat processed successfully.
+2024-11-20 11:08:01,523 - INFO - 127.0.0.1 - - [20/Nov/2024 11:08:01] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:11:57,205 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 11:11:57,205 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 11:11:57,205 - INFO -  * Restarting with stat
+2024-11-20 11:11:57,960 - WARNING -  * Debugger is active!
+2024-11-20 11:11:57,976 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 11:12:09,330 - INFO - 127.0.0.1 - - [20/Nov/2024 11:12:09] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:12:17,454 - INFO - Received city name: thane
+2024-11-20 11:12:17,454 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:12:28,690 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021470721890>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-20 11:12:33,204 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-20 11:12:33,204 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-20 11:12:34,602 - INFO - WeatherData table created or already exists.
+2024-11-20 11:12:34,623 - INFO - City 'thane' already exists in the database.
+2024-11-20 11:12:34,631 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-20 11:12:35,637 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:12:35,637 - INFO - Weather data for thane processed successfully.
+2024-11-20 11:12:35,873 - INFO - 127.0.0.1 - - [20/Nov/2024 11:12:35] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:36:50,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 11:36:50,937 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 11:36:50,937 - INFO -  * Restarting with stat
+2024-11-20 11:36:51,693 - WARNING -  * Debugger is active!
+2024-11-20 11:36:51,693 - INFO -  * Debugger PIN: 678-791-049
+2024-11-20 11:37:06,727 - INFO - Received city name: thane
+2024-11-20 11:37:06,727 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:37:16,265 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016BE15F4390>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno 11001] getaddrinfo failed)")': /search?q=thane&format=json&limit=1
+2024-11-20 11:37:19,484 - INFO - 127.0.0.1 - - [20/Nov/2024 11:37:19] "GET /view HTTP/1.1" 200 -
+2024-11-20 11:37:25,509 - INFO - Coordinates for thane found: 19.1943294, 72.9701779
+2024-11-20 11:37:25,509 - INFO - Initialized WeatherDataFetcher for thane
+2024-11-20 11:37:30,394 - INFO - Received city name: rajkot
+2024-11-20 11:37:30,394 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:37:31,118 - INFO - Coordinates for rajkot found: 22.3053263, 70.8028377
+2024-11-20 11:37:31,120 - INFO - Initialized WeatherDataFetcher for rajkot
+2024-11-20 11:37:37,886 - INFO - WeatherData table created or already exists.
+2024-11-20 11:37:37,891 - INFO - WeatherData table created or already exists.
+2024-11-20 11:37:37,891 - INFO - City 'thane' already exists in the database.
+2024-11-20 11:37:37,891 - INFO - City 'rajkot' already exists in the database.
+2024-11-20 11:37:37,907 - INFO - Current weather data for thane has been inserted into the database.
+2024-11-20 11:37:37,908 - INFO - Current weather data for rajkot has been inserted into the database.
+2024-11-20 11:37:39,007 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:37:39,007 - INFO - Weather data for thane processed successfully.
+2024-11-20 11:37:39,009 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:37:39,009 - INFO - Weather data for rajkot processed successfully.
+2024-11-20 11:37:39,363 - INFO - 127.0.0.1 - - [20/Nov/2024 11:37:39] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:37:39,364 - INFO - 127.0.0.1 - - [20/Nov/2024 11:37:39] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:38:03,124 - INFO - Received city name: gota
+2024-11-20 11:38:03,125 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:38:04,113 - INFO - Coordinates for gota found: 23.1010002, 72.5408363
+2024-11-20 11:38:04,115 - INFO - Initialized WeatherDataFetcher for gota
+2024-11-20 11:38:05,910 - INFO - WeatherData table created or already exists.
+2024-11-20 11:38:06,861 - INFO - Historical weather data for gota has been inserted into the database.
+2024-11-20 11:38:06,880 - INFO - Current weather data for gota has been inserted into the database.
+2024-11-20 11:38:08,657 - INFO - Model training completed through subprocess.
+2024-11-20 11:38:09,625 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:38:09,625 - INFO - Weather data for gota processed successfully.
+2024-11-20 11:38:09,773 - INFO - 127.0.0.1 - - [20/Nov/2024 11:38:09] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:38:24,628 - INFO - Received city name: ahmadabad
+2024-11-20 11:38:24,628 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:38:25,567 - INFO - Coordinates for ahmadabad found: 23.0215374, 72.5800568
+2024-11-20 11:38:25,574 - INFO - Initialized WeatherDataFetcher for ahmadabad
+2024-11-20 11:38:27,398 - INFO - WeatherData table created or already exists.
+2024-11-20 11:38:27,414 - INFO - City 'ahmadabad' already exists in the database.
+2024-11-20 11:38:27,420 - INFO - Current weather data for ahmadabad has been inserted into the database.
+2024-11-20 11:38:28,477 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:38:28,477 - INFO - Weather data for ahmadabad processed successfully.
+2024-11-20 11:38:28,867 - INFO - 127.0.0.1 - - [20/Nov/2024 11:38:28] "POST /view HTTP/1.1" 200 -
+2024-11-20 11:39:52,845 - INFO - Received city name: manali
+2024-11-20 11:39:52,845 - INFO - Initialized WeatherDataHandler
+2024-11-20 11:39:53,805 - INFO - Coordinates for manali found: 32.2454608, 77.1872926
+2024-11-20 11:39:53,807 - INFO - Initialized WeatherDataFetcher for manali
+2024-11-20 11:39:55,319 - INFO - WeatherData table created or already exists.
+2024-11-20 11:39:55,325 - INFO - City 'manali' already exists in the database.
+2024-11-20 11:39:55,330 - INFO - Current weather data for manali has been inserted into the database.
+2024-11-20 11:39:56,295 - INFO - Forecasting completed through subprocess.
+2024-11-20 11:39:56,295 - INFO - Weather data for manali processed successfully.
+2024-11-20 11:39:56,448 - INFO - 127.0.0.1 - - [20/Nov/2024 11:39:56] "POST /view HTTP/1.1" 200 -
