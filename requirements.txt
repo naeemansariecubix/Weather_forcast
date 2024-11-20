@@ -69,7 +69,7 @@ pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 #pywin32==308
-pywin32==227
+# pywin32==227
 pyzmq==26.2.0
 requests==2.31.0
 rich==13.9.3
@@ -83,9 +83,9 @@ statsmodels==0.14.4
 tenacity==9.0.0
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow-io-gcs-filesystem==0.31.0
-tensorflow_intel==2.18.0
+# tensorflow==2.18.0
+# tensorflow-io-gcs-filesystem==0.31.0
+# tensorflow_intel==2.18.0
 termcolor==2.5.0
 threadpoolctl==3.5.0
 tornado==6.4.1
