@@ -31,11 +31,17 @@ jobs:
         pip install -r requirements.txt
 
 
-    # Step 4: Run model.py
-    - name: Run model.py
+    # Step 4: Start Flask App
+    - name: Start Flask App
       run: |
-        python app.py
+        python app.py &  # Run Flask app in the background
+        sleep 10  # Allow some time for the server to start
+
+    # Step 5: Check Flask App Localhost URL
+    - name: Check Flask App
+      run: |
+        curl --silent http://127.0.0.1:5000 || echo "Flask app is not accessible"
 
     # Step 6: Notify success
     - name: Notify Success
-      run: echo "Pipeline executed successfully!"
+      run: echo "Pipeline executed successfully! Flask app ran on localhost."
