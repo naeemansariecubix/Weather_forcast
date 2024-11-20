@@ -31,17 +31,27 @@ jobs:
         pip install -r requirements.txt
 
 
-    # Step 4: Start Flask App
+ # Step 4: Run Flask App and Log Output
     - name: Start Flask App
       run: |
-        python app.py &  # Run Flask app in the background
-        sleep 10  # Allow some time for the server to start
+        python app.py > flask_output.log 2>&1 &  # Run the app and log output
+        sleep 10  # Allow Flask app to start
+        cat flask_output.log  # Display the log for debugging
 
-    # Step 5: Check Flask App Localhost URL
-    - name: Check Flask App
+    # Step 5: Check Flask App URL
+    - name: Check Flask App URL
       run: |
-        curl --silent http://127.0.0.1:5000/view || echo "Flask app is not accessible"
+        curl --silent http://127.0.0.1:5000 || echo "Flask app is not accessible"
 
-    # Step 6: Notify success
+    # Step 6: Verify Logs
+    - name: Display Logs
+      run: |
+        if test -f LOGGING_INFO.log; then
+          cat LOGGING_INFO.log
+        else
+          echo "LOGGING_INFO.log not found."
+        fi
+
+    # Step 7: Notify success
     - name: Notify Success
-      run: echo "Pipeline executed successfully! Flask app ran on localhost."
+      run: echo "Pipeline executed successfully! Logs displayed above."
