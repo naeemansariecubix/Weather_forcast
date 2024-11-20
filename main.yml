@@ -40,7 +40,7 @@ jobs:
     # Step 5: Check Flask App Localhost URL
     - name: Check Flask App
       run: |
-        curl --silent http://127.0.0.1:5000 || echo "Flask app is not accessible"
+        curl --silent http://127.0.0.1:5000/view || echo "Flask app is not accessible"
 
     # Step 6: Notify success
     - name: Notify Success
