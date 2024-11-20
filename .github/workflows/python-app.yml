@@ -31,26 +31,28 @@ jobs:
         pip install -r requirements.txt
 
 
-     # Step 4: Install localtunnel
-    - name: Install localtunnel
-      run: npm install -g localtunnel
 
-    # Step 5: Start Flask App
+    # Step 4: Run Flask App and Log Output
     - name: Start Flask App
       run: |
-        python app.py &  # Run Flask app in the background
-        sleep 10         # Allow Flask to initialize
+        python app.py > flask_output.log 2>&1 &  # Run the app and log output
+        sleep 10  # Allow Flask app to start
+        cat flask_output.log  # Display the log for debugging
 
-    # Step 6: Expose Flask App via localtunnel
-    - name: Expose Flask App
+    # Step 5: Check Flask App URL
+    - name: Check Flask App URL
       run: |
-        lt --port 8080 --subdomain mycustomsubdomain > lt_url.txt &
-        sleep 5  # Allow localtunnel to initialize
+        curl --silent http://127.0.0.1:5000 || echo "Flask app is not accessible"
 
-    # Step 7: Display Public URL
-    - name: Get Public URL
-      run: cat lt_url.txt
+    # Step 6: Verify Logs
+    - name: Display Logs
+      run: |
+        if test -f LOGGING_INFO.log; then
+          cat LOGGING_INFO.log
+        else
+          echo "LOGGING_INFO.log not found."
+        fi
 
-    # Step 8: Notify success
+    # Step 7: Notify success
     - name: Notify Success
       run: echo "Pipeline executed successfully! Logs displayed above."
