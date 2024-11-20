@@ -5,8 +5,18 @@ import logging
 from model import get_weather_forecast
 import pandas as pd
 
+from flask import Flask, render_template, request
+import logging
+
+# Assuming you have the WeatherDataHandler and other functions imported
 
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    # This route will serve as the homepage, typically a welcome message or basic info
+    return "Welcome to the Weather Forecasting App!"
+
 @app.route('/view', methods=['GET', 'POST'])
 def view():
     if request.method == 'POST':
@@ -26,25 +36,27 @@ def view():
             return f"An error occurred: {e}", 500
         
         # Redirect to a confirmation or the same page
-        final_df,df = get_weather_forecast(forecast_days=7)
-        df.rename(columns={'max_temperature': 'Temperature'},inplace=True)
+        final_df, df = get_weather_forecast(forecast_days=7)
+        df.rename(columns={'max_temperature': 'Temperature'}, inplace=True)
         df = df.iloc[-1].to_dict()
         print(df)
         print(final_df)
         is_data_available = not final_df.empty
         return render_template(
-                'index.html',
-                df_data=df,
-                final_table_data=final_df if is_data_available else None,
-                is_data_available=is_data_available 
-            )
+            'index.html',
+            df_data=df,
+            final_table_data=final_df if is_data_available else None,
+            is_data_available=is_data_available
+        )
     
     # For GET requests, render the input form
-    return render_template('index.html', df_data=None,final_table_data=None, is_data_available=False)
+    return render_template('index.html', df_data=None, final_table_data=None, is_data_available=False)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=8080)
+
+
 
 
 
