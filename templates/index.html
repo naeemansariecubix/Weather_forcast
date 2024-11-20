@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Weather Forecast Application</h1>
+        
+        <!-- City Name Input Form -->
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+                Enter City Name
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/view">
+                    <div class="form-group">
+                        <label for="city_name">City Name:</label>
+                        <input type="text" class="form-control" id="city_name" name="city_name" placeholder="Enter city name" required>
+                    </div>
+                    <button type="submit" class="btn btn-success">Get Weather</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Display Last  Weather Data -->
+        {% if df_data %}
+        <div class="card mt-4">
+            <div class="card-header bg-secondary text-white">
+                Latest Weather Data
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>City</th>
+                        <td>{{ df_data.city_name }}</td>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>{{ df_data.date }}</td>
+                    </tr>
+                    <tr>
+                        <th>Temperature</th>
+                        <td>{{ df_data.Temperature }}</td>
+                    </tr>
+                    <tr>
+                        <th>Min Temperature</th>
+                        <td>{{ df_data.min_temperature }}</td>
+                    </tr>
+                    <tr>
+                        <th>Humidity</th>
+                        <td>{{ df_data.max_humidity }}</td>
+                    </tr>
+                    <tr>
+                        <th>Wind Speed</th>
+                        <td>{{ df_data.max_wind_speed }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Forecasted Weather Data Table -->
+        {% if is_data_available %}
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                Forecasted Weather Data
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Date</th>
+                            <th>City</th>
+                            <th>Temperature (°C)</th>
+                            <th>Humidity (%)</th>
+                            <th>Wind Speed (km/h)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in final_table_data.iterrows() %}
+                        <tr>
+                            <td>{{ row[1].date }}</td>
+                            <td>{{ row[1].city_name }}</td>
+                            <td>{{ row[1].temperature }}</td>
+                            <td>{{ row[1].humidity }}</td>
+                            <td>{{ row[1].wind_speed }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% else %}
+        <div class="alert alert-warning mt-4" role="alert">
+            No forecasted data available. Please enter a city name to get weather data.
+        </div>
+        {% endif %}
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
