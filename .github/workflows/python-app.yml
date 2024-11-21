@@ -1,48 +1,53 @@
-# Workflow Name
-name: Run and expose app with LocalTunnel
+name: Deploy and Expose Weather Forecast App
 
-# Trigger workflow on push to the main branch
 on:
   push:
     branches: [main]
 
-# Define jobs
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out your repository
-      - name: Checkout
+      # Step 1: Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Step 2: Set up Python environment
-      - name: Set up Python
+      # Step 2: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v2
         with:
-          python-version: 3.11
+          python-version: '3.11'
 
-      # Step 3: Install application dependencies
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # Step 4: Start the application locally
-      - name: Start application
+      # Step 4: Build Docker image
+      - name: Build Docker image
         run: |
-          nohup gunicorn --workers=4 --bind 0.0.0.0:8080 app:app &
+          docker build -t weather-forecast-app .
 
-      # Step 5: Install LocalTunnel and expose the application
+      # Step 5: Run the application inside Docker
+      - name: Run the Docker container
+        run: |
+          docker run -d -p 8080:8080 weather-forecast-app
+
+      # Step 6: Install LocalTunnel and expose the application
       - name: Expose application with LocalTunnel
         run: |
           npm install -g localtunnel
           nohup lt --port 8080 > localtunnel.log &
-          sleep 5
-          cat localtunnel.log
+          sleep 10  # Wait for LocalTunnel to establish
+          cat localtunnel.log  # Print out the URL
+          tail -f localtunnel.log  # Keep the logs visible
 
-      # Step 6: Keep the process alive
+      # Step 7: Keep the container running for a while to verify it's working
       - name: Keep alive
-        run: sleep 300
+        run: sleep 300  # Keep the process running for 5 minutes
+
+
 
 
 
