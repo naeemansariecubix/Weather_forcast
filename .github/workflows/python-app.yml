@@ -1,119 +1,119 @@
-# Workflow name
-name: Run and expose app with ngrok
+# # Workflow name
+# name: Run and expose app with ngrok
 
-# Trigger workflow on push to the main branch
-on:
-  push:
-    branches: [main]
+# # Trigger workflow on push to the main branch
+# on:
+#   push:
+#     branches: [main]
 
-# Define jobs
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      # Step 1: Check out the repository
-      - name: Checkout repository
-        uses: actions/checkout@v2
+# # Define jobs
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       # Step 1: Check out the repository
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
 
-      # Step 2: Set up Python environment
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.11
+#       # Step 2: Set up Python environment
+#       - name: Set up Python
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: 3.11
 
-      # Step 3: Install dependencies
-      - name: Install application dependencies
-        run: |
-          pip install -r requirements.txt
+#       # Step 3: Install dependencies
+#       - name: Install application dependencies
+#         run: |
+#           pip install -r requirements.txt
 
-      # Step 4: Start the application
-      - name: Start application
-        run: |
-          nohup python app.py &
+#       # Step 4: Start the application
+#       - name: Start application
+#         run: |
+#           nohup python app.py &
 
-      # Step 5: Install ngrok
-      - name: Install ngrok
-        run: |
-          curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
-          echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
-          sudo apt update && sudo apt install ngrok -y
+#       # Step 5: Install ngrok
+#       - name: Install ngrok
+#         run: |
+#           curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
+#           echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
+#           sudo apt update && sudo apt install ngrok -y
 
-      # Step 6: Configure and run ngrok
-      - name: Expose application with ngrok
-        env:
-          NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
-        run: |
-          ngrok config add-authtoken $NGROK_AUTHTOKEN
-          nohup ngrok http 8080 > /dev/null 2>&1 &
-          sleep 5
-          curl -s http://127.0.0.1:4040/api/tunnels | jq
+#       # Step 6: Configure and run ngrok
+#       - name: Expose application with ngrok
+#         env:
+#           NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
+#         run: |
+#           ngrok config add-authtoken $NGROK_AUTHTOKEN
+#           nohup ngrok http 8080 > /dev/null 2>&1 &
+#           sleep 5
+#           curl -s http://127.0.0.1:4040/api/tunnels | jq
 
-      # Step 7: Output ngrok URL
-      - name: Display ngrok public URL
-        run: |
-          curl -s http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url'
+#       # Step 7: Output ngrok URL
+#       - name: Display ngrok public URL
+#         run: |
+#           curl -s http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url'
 
           
    
           
-### ⬆ IMPORTANT PART ⬆ ###
+# ### ⬆ IMPORTANT PART ⬆ ###
 
 
 
-# name: Python CI/CD Pipeline
+name: Python CI/CD Pipeline
 
-# # Trigger the workflow on push or pull request to the main branch
-# on:
-#   push:
-#     branches:
-#       - main
-#   pull_request:
-#     branches:
-#       - develop
+# Trigger the workflow on push or pull request to the main branch
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - develop
 
-# jobs:
-#   build-and-deploy:
-#     runs-on: ubuntu-latest
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
-#     steps:
-#     # Step 1: Checkout the repository
-#     - name: Checkout code
-#       uses: actions/checkout@v3
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-#     # Step 2: Set up Python
-#     - name: Set up Python
-#       uses: actions/setup-python@v4
-#       with:
-#         python-version: '3.11'  # Specify your Python version
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'  # Specify your Python version
 
-#     # Step 3: Install dependencies
-#     - name: Install dependencies
-#       run: |
-#         python -m pip install --upgrade pip
-#         pip install -r requirements.txt
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
 
-#     # Step 4: Install Node.js and Localtunnel
-#     - name: Install Node.js and Localtunnel
-#       uses: actions/setup-node@v3
-#       with:
-#         node-version: '16'  # Compatible Node.js version
-#     - run: npm install -g localtunnel
+    # Step 4: Install Node.js and Localtunnel
+    - name: Install Node.js and Localtunnel
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Compatible Node.js version
+    - run: npm install -g localtunnel
 
-#     # Step 5: Start Flask App in the background
-#     - name: Start Flask App
-#       run: |
-#         nohup python app.py &  # Start the Flask app
-#         sleep 15               # Wait for the app to fully start
+    # Step 5: Start Flask App in the background
+    - name: Start Flask App
+      run: |
+        nohup python app.py &  # Start the Flask app
+        sleep 15               # Wait for the app to fully start
 
-#     # Step 6: Expose Flask App using Localtunnel
-#     - name: Expose Flask App
-#       run: |
-#         lt --port 8080 --subdomain flaskci > lt_url.txt &
-#         sleep 5  # Wait for Localtunnel to initialize
+    # Step 6: Expose Flask App using Localtunnel
+    - name: Expose Flask App
+      run: |
+        lt --port 8080 --subdomain flaskci > lt_url.txt &
+        sleep 5  # Wait for Localtunnel to initialize
 
-#     # Step 7: Capture and Display the Public URL
-#     - name: Display Public URL
-#       run: |
-#         PUBLIC_URL=$(cat lt_url.txt | grep -o 'http[s]\?://[^ ]*')  # Extract URL
-#         echo "Flask App is publicly accessible at: $PUBLIC_URL"
+    # Step 7: Capture and Display the Public URL
+    - name: Display Public URL
+      run: |
+        PUBLIC_URL=$(cat lt_url.txt | grep -o 'http[s]\?://[^ ]*')  # Extract URL
+        echo "Flask App is publicly accessible at: $PUBLIC_URL"
