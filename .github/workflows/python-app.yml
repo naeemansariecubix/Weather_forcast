@@ -1,24 +1,16 @@
-
-
-
-
-
-
-# Workflow name
 name: Run and expose app with ngrok
 
-# Trigger workflow on push to the main branch
 on:
   push:
     branches: [main]
 
-# Define jobs
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      # Step 1: Check out the repository
-      - name: Checkout repository
+      # Step 1: Check out your repository
+      - name: Checkout
         uses: actions/checkout@v2
 
       # Step 2: Set up Python environment
@@ -27,42 +19,99 @@ jobs:
         with:
           python-version: 3.11
 
-      # Step 3: Install dependencies
-      - name: Install application dependencies
+      # Step 3: Install application dependencies
+      - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # Step 4: Start the application
-      - name: Start application
-        run: |
-          nohup python app.py &
-
-      # Step 5: Install ngrok
+      # Step 4: Install ngrok
       - name: Install ngrok
         run: |
-          curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
-          echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
-          sudo apt update && sudo apt install ngrok -y
+          curl -s https://ngrok.com/download | unzip - && mv ngrok /usr/local/bin/
 
-      # Step 6: Configure and run ngrok
+      # Step 5: Set up ngrok authentication token
+      - name: Setup ngrok authtoken
+        run: |
+          echo ${{ secrets.NGROK_AUTHTOKEN }} | ngrok authtoken
+
+      # Step 6: Run Gunicorn (app server)
+      - name: Run application with Gunicorn
+        run: |
+          nohup gunicorn --workers=4 --bind 0.0.0.0:8080 app:app &
+
+      # Step 7: Expose app with ngrok
       - name: Expose application with ngrok
-        env:
-          NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
         run: |
-          ngrok config add-authtoken $NGROK_AUTHTOKEN
-          nohup ngrok http 8080 > /dev/null 2>&1 &
+          nohup ngrok http 8080 > ngrok.log &
           sleep 5
-          curl -s http://127.0.0.1:4040/api/tunnels | jq
+          cat ngrok.log
 
-      # Step 7: Output ngrok URL
-      - name: Display ngrok public URL
-        run: |
-          curl -s http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url'
+      # Step 8: Keep the process alive
+      - name: Keep alive
+        run: sleep 300
+
+
+
+
+# # Workflow name
+# name: Run and expose app with ngrok
+
+# # Trigger workflow on push to the main branch
+# on:
+#   push:
+#     branches: [main]
+
+# # Define jobs
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       # Step 1: Check out the repository
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
+
+#       # Step 2: Set up Python environment
+#       - name: Set up Python
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: 3.11
+
+#       # Step 3: Install dependencies
+#       - name: Install application dependencies
+#         run: |
+#           pip install -r requirements.txt
+
+#       # Step 4: Start the application
+#       - name: Start application
+#         run: |
+#           nohup python app.py &
+
+#       # Step 5: Install ngrok
+#       - name: Install ngrok
+#         run: |
+#           curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
+#           echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
+#           sudo apt update && sudo apt install ngrok -y
+
+#       # Step 6: Configure and run ngrok
+#       - name: Expose application with ngrok
+#         env:
+#           NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
+#         run: |
+#           ngrok config add-authtoken $NGROK_AUTHTOKEN
+#           nohup ngrok http 8080 > /dev/null 2>&1 &
+#           sleep 5
+#           curl -s http://127.0.0.1:4040/api/tunnels | jq
+
+#       # Step 7: Output ngrok URL
+#       - name: Display ngrok public URL
+#         run: |
+#           curl -s http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url'
 
           
    
           
-### ⬆ IMPORTANT PART ⬆ ###
+# ### ⬆ IMPORTANT PART ⬆ ###
 
 
 
