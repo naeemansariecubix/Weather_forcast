@@ -1,41 +1,56 @@
-name: Python CI/CD Pipeline
+# name: Python CI/CD Pipeline
 
-# Trigger the workflow on push or pull request to the main branch
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - develop
+# # Trigger the workflow on push or pull request to the main branch
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#     branches:
+#       - develop
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-    # Step 1: Checkout the repository
-    - name: Checkout code
-      uses: actions/checkout@v3
+#     steps:
+#     # Step 1: Checkout the repository
+#     - name: Checkout code
+#       uses: actions/checkout@v3
 
-    # Step 2: Set up Python
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11.9'  # Specify your Python version
+#     # Step 2: Set up Python
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.11'  # Specify your Python version
 
-    # Step 3: Install dependencies
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+#     # Step 3: Install dependencies
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
 
 
-    # Step 4: Run model.py
-    - name: Run model.py
-      run: |
-        python app.py
+#      # Step 4: Install localtunnel
+#     - name: Install localtunnel
+#       run: npm install -g localtunnel
 
-    # Step 6: Notify success
-    - name: Notify Success
-      run: echo "Pipeline executed successfully!"
+#     # Step 5: Start Flask App
+#     - name: Start Flask App
+#       run: |
+#         python app.py &  # Run Flask app in the background
+#         sleep 10         # Allow Flask to initialize
+
+#     # Step 6: Expose Flask App via localtunnel
+#     - name: Expose Flask App
+#       run: |
+#         lt --port 8080 --subdomain mycustomsubdomain > lt_url.txt &
+#         sleep 5  # Allow localtunnel to initialize
+
+#     # Step 7: Display Public URL
+#     - name: Get Public URL
+#       run: cat lt_url.txt
+
+#     # Step 8: Notify success
+#     - name: Notify Success
+#       run: echo "Pipeline executed successfully! Logs displayed above."
