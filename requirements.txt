@@ -1,4 +1,4 @@
-fabsl-py==2.1.0
+#fabsl-py==2.1.0
 asttokens==2.4.1
 astunparse==1.6.3
 blinker==1.9.0
