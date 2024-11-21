@@ -1,4 +1,4 @@
-absl-py==2.1.0
+fabsl-py==2.1.0
 asttokens==2.4.1
 astunparse==1.6.3
 blinker==1.9.0
@@ -20,6 +20,7 @@ gast==0.6.0
 geographiclib==2.0
 geopy==2.3.0
 google-pasta==0.2.0
+gunicorn==20.1.0
 greenlet==3.1.1
 grpcio==1.67.0
 h5py==3.12.1
