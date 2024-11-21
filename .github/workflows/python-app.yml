@@ -1,52 +1,62 @@
-name: Deploy and Expose Weather Forecast App
+name: Python CI/CD with LocalTunnel
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      # Step 1: Check out the code
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
       # Step 2: Set up Python
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: 3.11
 
-      # Step 3: Install dependencies
-      - name: Install dependencies
+      # Step 3: Install Python dependencies
+      - name: Install Dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Build Docker image
-      - name: Build Docker image
+      # Step 4: Set up npm and install LocalTunnel
+      - name: Configure npm
         run: |
-          docker build -t weather-forecast-app .
-
-      # Step 5: Run the application inside Docker
-      - name: Run the Docker container
-        run: |
-          docker run -d -p 8080:8080 weather-forecast-app
-
-      # Step 6: Install LocalTunnel and expose the application
-      - name: Expose application with LocalTunnel
-        run: |
+          mkdir ~/.npm-global
+          npm config set prefix '~/.npm-global'
+          echo "export PATH=~/.npm-global/bin:$PATH" >> $GITHUB_ENV
+          source ~/.bashrc
           npm install -g npm@latest
+          npm install -g localtunnel
+
+      # Step 5: Start the application
+      - name: Start the Python App
+        run: |
+          nohup python app.py &
+          sleep 10
+
+      # Step 6: Expose application with LocalTunnel
+      - name: Start LocalTunnel
+        run: |
           nohup lt --port 8080 > localtunnel.log &
           sleep 10  # Wait for LocalTunnel to establish
           cat localtunnel.log  # Print out the URL
           tail -f localtunnel.log  # Keep the logs visible
 
-      # Step 7: Keep the container running for a while to verify it's working
-      - name: Keep alive
-        run: sleep 300  # Keep the process running for 5 minutes
-
+      # Step 7: Test the application
+      - name: Run Tests
+        run: |
+          curl -v http://localhost:8080
 
 
 
