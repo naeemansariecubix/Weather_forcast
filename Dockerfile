@@ -1,17 +1,20 @@
-# Use the Python 3.11 base image
+# Use official Python image from Docker Hub
 FROM python:3.11
 
-# Copy all files from the current directory to /app in the container
-COPY . /app
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
 
-# Set the working directory to /app
+# Set the working directory inside the container
 WORKDIR /app
 
-# Install dependencies from requirements.txt
+# Copy all files from your app to the container's working directory
+COPY . /app/
+
+# Install Python dependencies
 RUN pip install -r requirements.txt
 
-# Expose the port specified in the $PORT environment variable
-EXPOSE $PORT
+# Expose the port that Flask will run on (8080)
+EXPOSE 8080
 
-# Run the application using Gunicorn
-CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app
+# Set the default command to run your application using gunicorn (for production)
+CMD ["gunicorn", "--workers=4", "--bind", "0.0.0.0:8080", "app:app"]
